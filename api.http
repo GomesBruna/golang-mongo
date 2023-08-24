@@ -1,0 +1,15 @@
+### Create an User
+POST http://localhost:9000/user
+Content-Type: application/json
+
+{
+    "Name": "Alex",
+    "Gender": "Male",
+    "Age": 25
+}
+
+### Get ID
+GET http://localhost:9000/user/Alex
+
+### Delete ID
+DELETE http://localhost:9000/user/Alex
